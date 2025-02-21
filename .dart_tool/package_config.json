@@ -164,6 +164,12 @@
       "languageVersion": "3.5"
     },
     {
+      "name": "flutter_screenutil",
+      "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/flutter_screenutil-5.9.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "flutter_svg",
       "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/flutter_svg-2.0.17",
       "packageUri": "lib/",
@@ -182,10 +188,22 @@
       "languageVersion": "3.7"
     },
     {
+      "name": "font_awesome_flutter",
+      "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/font_awesome_flutter-10.8.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "forge2d",
       "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/forge2d-0.11.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "google_fonts",
+      "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/google_fonts-6.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
     },
     {
       "name": "http",
@@ -440,7 +458,7 @@
       "languageVersion": "3.7"
     }
   ],
-  "generated": "2025-02-21T20:12:14.460518Z",
+  "generated": "2025-02-21T20:33:56.787524Z",
   "generator": "pub",
   "generatorVersion": "3.7.0",
   "flutterRoot": "file:///Users/ismailkirci/Development/flutter",
