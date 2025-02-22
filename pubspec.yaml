@@ -1,29 +1,38 @@
-name: flutter_flame_engine
-description: "A new Flutter project."
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
-
+name: flutter_flame_test
+description: A new Flutter project
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.7.0 # Flutter SDK sürümü
+  sdk: ">=2.17.0 <3.0.0"
 
-  dependencies:
-    flutter:
-      sdk: flutter # Flutter SDK bağımlılığı
-    cupertino_icons: ^1.0.8 # Cupertino ikonları bağımlılığı
-    flame: ^1.8.1 # Flame oyun motoru bağımlılığı
-    flame_audio: ^2.0.5 # Flame ses motoru bağımlılığı
-    flame_forge2d: ^0.12.0 # Flame fizik motoru bağımlılığı
-    flame_svg: ^1.2.2 # Flame SVG desteği bağımlılığı
-    flame_tiled: ^1.15.0 # Flame Tiled harita desteği bağımlılığı
-    flutter_screenutil: ^5.9.3 # Ekran boyutlandırma bağımlılığı
-    google_fonts: ^6.2.1 # Google fontları bağımlılığı
-    font_awesome_flutter: ^10.8.0 # Font Awesome ikonları bağımlılığı
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.25.0
+  flame_audio: ^2.0.5 # Flame ses motoru bağımlılığı
+  flame_forge2d: ^0.12.0 # Flame fizik motoru bağımlılığı
+  flame_svg: ^1.2.2 # Flame SVG desteği bağımlılığı
+  flame_tiled: ^1.15.0 # Flame Tiled harita desteği bağımlılığı
+  flutter_screenutil: ^5.9.3 # Ekran boyutlandırma bağımlılığı
+  google_fonts: ^6.2.1 # Google fontları bağımlılığı
+  font_awesome_flutter: ^10.8.0
+
+
+
+  # Add other dependencies here
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
 
 flutter:
   uses-material-design: true
+
+  # Add other assets here
+  assets:
+  - assets/images/
+  - assets/sounds/
+  - assets/fonts/
+  - assets/animations/
+  - assets/data/
+  - assets/shaders/

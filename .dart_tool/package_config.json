@@ -92,12 +92,6 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "cupertino_icons",
-      "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/cupertino_icons-1.0.8",
-      "packageUri": "lib/",
-      "languageVersion": "3.1"
-    },
-    {
       "name": "fake_async",
       "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/fake_async-1.3.2",
       "packageUri": "lib/",
@@ -156,12 +150,6 @@
       "rootUri": "file:///Users/ismailkirci/Development/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "3.7"
-    },
-    {
-      "name": "flutter_lints",
-      "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/flutter_lints-5.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.5"
     },
     {
       "name": "flutter_screenutil",
@@ -234,12 +222,6 @@
       "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/leak_tracker_testing-3.0.1",
       "packageUri": "lib/",
       "languageVersion": "3.2"
-    },
-    {
-      "name": "lints",
-      "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/lints-5.1.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.6"
     },
     {
       "name": "matcher",
@@ -452,13 +434,13 @@
       "languageVersion": "3.2"
     },
     {
-      "name": "flutter_flame_engine",
+      "name": "flutter_flame_test",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "3.7"
+      "languageVersion": "2.17"
     }
   ],
-  "generated": "2025-02-21T20:33:56.787524Z",
+  "generated": "2025-02-22T08:23:09.394257Z",
   "generator": "pub",
   "generatorVersion": "3.7.0",
   "flutterRoot": "file:///Users/ismailkirci/Development/flutter",

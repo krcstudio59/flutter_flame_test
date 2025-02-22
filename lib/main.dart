@@ -1,27 +1,18 @@
-import 'package:flame/game.dart';
-import 'package:flame/components.dart';
-import 'package:flame/flame.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_flame_test/features/view/menu_view.dart';
 
 void main() {
-  WidgetsFlutterBinding.ensureInitialized();
-  runApp(GameWidget(game: MyGame()));
+  runApp(const MyApp());
 }
 
-class MyGame extends FlameGame {
-  late SpriteComponent player;
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
-  Future<void> onLoad() async {
-    await Flame.images.load(
-      'player.png',
-    ); // assets/images/player.png olarak yüklenecek
-    player =
-        SpriteComponent()
-          ..sprite = await loadSprite('player.png')
-          ..size = Vector2(100, 100)
-          ..position = size / 2; // Ekranın ortasına koy
-
-    add(player);
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: const MenuView(), // Başlangıçta Menü Açılıyor
+    );
   }
 }
