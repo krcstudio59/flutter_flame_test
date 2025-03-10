@@ -22,7 +22,7 @@
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		tVGHZhCxuJPiKEWGymp86PG2VCE=
+		EAOAu5yzd1kLpcIoOVlko8OqqaI=
 		</data>
 		<key>flutter_assets/NativeAssetsManifest.json</key>
 		<data>
@@ -31,6 +31,46 @@
 		<key>flutter_assets/assets/images/player.png</key>
 		<data>
 		Urzbfh1GMzyxciZ5tIBUY2Qe6jg=
+		</data>
+		<key>flutter_assets/assets/maps/.DS_Store</key>
+		<data>
+		Up6lp975fCWNIX6Yi+u1vNanPq0=
+		</data>
+		<key>flutter_assets/assets/maps/level.tmx</key>
+		<data>
+		Cfe1BpJuFSi32h4yvNODjpBl8eI=
+		</data>
+		<key>flutter_assets/assets/maps/level2.tiled-project</key>
+		<data>
+		E/T84nQd2L6MYiNNPpOT8hcsSP4=
+		</data>
+		<key>flutter_assets/assets/maps/level2.tiled-session</key>
+		<data>
+		R8uDPP7d/N/08cuizHdQfsaeZys=
+		</data>
+		<key>flutter_assets/assets/maps/level2.tmx</key>
+		<data>
+		bfX8sF2uYEzKZtuhudSnOtqSbi8=
+		</data>
+		<key>flutter_assets/assets/maps/tile1.tsx</key>
+		<data>
+		svTYJX6w13uST5FobgzBo4dAOng=
+		</data>
+		<key>flutter_assets/assets/maps/tiles.png</key>
+		<data>
+		m4ueNDpNOjNO92Nwem1W5Nia5EY=
+		</data>
+		<key>flutter_assets/assets/tiles/maps/.DS_Store</key>
+		<data>
+		Up6lp975fCWNIX6Yi+u1vNanPq0=
+		</data>
+		<key>flutter_assets/assets/tiles/maps/level.tmx</key>
+		<data>
+		dqfQBobGoFPC/uANTW2LiDhnGM8=
+		</data>
+		<key>flutter_assets/assets/tiles/maps/tiles.png</key>
+		<data>
+		m4ueNDpNOjNO92Nwem1W5Nia5EY=
 		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
@@ -42,7 +82,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		85C0kJ9OL567Ek94CNaRzUjny18=
+		sWEHI8gNpnkFBUDSkwecb2+ZfPM=
 		</data>
 		<key>flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf</key>
 		<data>
@@ -92,7 +132,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eb/4JdxUqJ6DJ9Xb1kIlApJmmykhqRz84z2eIHZ0A4M=
+			YS0XB4cO/91faBb5KHOGDgaPfPJWSqmPxUObDAbh4ug=
 			</data>
 		</dict>
 		<key>flutter_assets/NativeAssetsManifest.json</key>
@@ -107,6 +147,62 @@
 			<key>hash2</key>
 			<data>
 			O0T+gFvcaw7Mrvjqz/smBvK3c1eh6NMlWc7SYRzzRgg=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/maps/level.tmx</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			92iPKtOg1/j6W5QlXsVMqevsyi68rpN7x7xxb3FWSEY=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/maps/level2.tiled-project</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yVh85YWYdcP0cJXumKCVlr/OImXf6AgDApfkQlcnhvM=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/maps/level2.tiled-session</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WHgRtg+x0fUjP3pXdPnmS6uMyBxUzAcP36xaevfclGw=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/maps/level2.tmx</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EzTVGelkHrY2NlMKAH1x6RzLcHauRTCtvbOLLDNMdGA=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/maps/tile1.tsx</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7wMZUt4OFJCtPcG85K7cTlcAddBJIYq+qunXqD7rmd0=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/maps/tiles.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RbTjuMLR9beLRQ2Ixx7Qawnw22xV6AOoh6J0AVcYF4k=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/tiles/maps/level.tmx</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zKkgkDsotXF6xlvMAI8NPFRPVHaa+hnoWQerqb085HY=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/tiles/maps/tiles.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RbTjuMLR9beLRQ2Ixx7Qawnw22xV6AOoh6J0AVcYF4k=
 			</data>
 		</dict>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
@@ -127,7 +223,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+TnfkcXIuMP6byIt5bEeBoFdgY6XQSZd3nEecUwM30s=
+			ghuNJcba/qVbM3fYeDciF8unjRtxlYqyayBs0vvi60g=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf</key>

@@ -21,43 +21,43 @@
     },
     {
       "name": "audioplayers",
-      "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/audioplayers-6.2.0",
+      "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/audioplayers-6.3.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "audioplayers_android",
-      "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/audioplayers_android-5.0.3",
+      "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/audioplayers_android-5.1.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "audioplayers_darwin",
-      "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/audioplayers_darwin-6.1.0",
+      "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/audioplayers_darwin-6.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "audioplayers_linux",
-      "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/audioplayers_linux-4.1.0",
+      "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/audioplayers_linux-4.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "audioplayers_platform_interface",
-      "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/audioplayers_platform_interface-7.0.0",
+      "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/audioplayers_platform_interface-7.0.1",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "audioplayers_web",
-      "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/audioplayers_web-5.0.1",
+      "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/audioplayers_web-5.0.2",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
     {
       "name": "audioplayers_windows",
-      "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/audioplayers_windows-4.1.0",
+      "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/audioplayers_windows-4.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -267,9 +267,9 @@
     },
     {
       "name": "path_provider_android",
-      "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/path_provider_android-2.2.15",
+      "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/path_provider_android-2.2.16",
       "packageUri": "lib/",
-      "languageVersion": "3.5"
+      "languageVersion": "3.6"
     },
     {
       "name": "path_provider_foundation",
@@ -417,7 +417,7 @@
     },
     {
       "name": "web",
-      "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/web-1.1.0",
+      "rootUri": "file:///Users/ismailkirci/.pub-cache/hosted/pub.dev/web-1.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
@@ -440,10 +440,10 @@
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2025-02-22T08:23:09.394257Z",
+  "generated": "2025-03-10T10:20:24.261854Z",
   "generator": "pub",
   "generatorVersion": "3.7.0",
   "flutterRoot": "file:///Users/ismailkirci/Development/flutter",
-  "flutterVersion": "3.29.0",
+  "flutterVersion": "3.29.1",
   "pubCache": "file:///Users/ismailkirci/.pub-cache"
 }

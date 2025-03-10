@@ -1,18 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_flame_test/features/view/menu_view.dart';
+import 'package:flame/game.dart';
+import 'game/breakout_game.dart';
 
 void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: const MenuView(), // Başlangıçta Menü Açılıyor
-    );
-  }
+  runApp(
+    GameWidget(
+      game: BreakoutGame(),
+    ),
+  );
 }

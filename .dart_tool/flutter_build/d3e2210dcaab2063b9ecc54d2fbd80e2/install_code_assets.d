@@ -1,0 +1,1 @@
+ /Users/ismailkirci/Documents/GitHub/flutter_flame_test/.dart_tool/flutter_build/d3e2210dcaab2063b9ecc54d2fbd80e2/native_assets.json: 
