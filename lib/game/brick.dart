@@ -1,16 +1,13 @@
 import 'package:flame/components.dart';
 import 'package:flame/collisions.dart';
 import 'package:flutter/material.dart';
-
 import 'ball.dart';
 
 class Brick extends PositionComponent with CollisionCallbacks {
   bool isDestroyed = false;
 
-  Brick({
-    Vector2? position,
-    Vector2? size,
-  }) : super(position: position, size: size);
+  Brick({Vector2? position, Vector2? size})
+      : super(position: position, size: size);
 
   @override
   Future<void> onLoad() async {
@@ -20,7 +17,6 @@ class Brick extends PositionComponent with CollisionCallbacks {
 
   @override
   void render(Canvas canvas) {
-    super.render(canvas);
     final paint = Paint()
       ..color = isDestroyed ? Colors.transparent : Colors.green;
     canvas.drawRect(size.toRect(), paint);
@@ -28,10 +24,9 @@ class Brick extends PositionComponent with CollisionCallbacks {
 
   @override
   void onCollision(Set<Vector2> intersectionPoints, PositionComponent other) {
-    // Top çarpınca kendini yok et
     if (other is Ball) {
       isDestroyed = true;
-      removeFromParent(); // Sahneden bileşeni tamamen kaldır
+      removeFromParent();
     }
     super.onCollision(intersectionPoints, other);
   }

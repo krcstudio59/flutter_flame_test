@@ -39,3 +39,4 @@ flutter:
   - assets/shaders/
   - assets/maps/
   - assets/tiles/maps/
+  - assets/levels/brick_matrix.txt

@@ -17,12 +17,14 @@ class Ball extends PositionComponent with CollisionCallbacks, HasGameRef {
   @override
   Future<void> onLoad() async {
     await super.onLoad();
-    add(CircleHitbox());
+    // Normalde hitbox, topun yarıçapı kadar olur; relativeRadius: 0.5, yarıçapın yarısı kadar ayarlar.
+    add(CircleHitbox(radius: size.x / 2));
   }
 
   @override
   void render(Canvas canvas) {
     final paint = Paint()..color = Colors.red;
+    // Topu, verilen size değerine göre çizeriz.
     canvas.drawCircle(
       Offset(size.x / 2, size.y / 2),
       size.x / 2,
@@ -60,18 +62,12 @@ class Ball extends PositionComponent with CollisionCallbacks, HasGameRef {
 
   @override
   void onCollision(Set<Vector2> intersectionPoints, PositionComponent other) {
-    // Paddle ile çarpışmada topun yönünü ters çevir
     if (other is Paddle) {
       velocity.y = -velocity.y;
-    }
-    // Brick ile çarpışmada topun sekmesini sağla
-    else if (other is Brick) {
-      // Brick ve top merkezlerini hesapla
+    } else if (other is Brick) {
       final brickCenter = other.position + other.size / 2;
       final ballCenter = position + size / 2;
       final diff = ballCenter - brickCenter;
-
-      // Eğer yatay fark dikeyden büyükse yan tarafla çarpışma kabul edilir
       if (diff.x.abs() > diff.y.abs()) {
         velocity.x = -velocity.x;
       } else {
